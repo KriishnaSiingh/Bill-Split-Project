@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Split Your Bill</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Split Your Bill</h1>
+    <div class="form">
+      <input type="text" id="bill" placeholder="Enter Bill Amount (₹)" />
+      <input type="text" id="tip" placeholder="Enter Tip (%) - optional" />
+      <input type="text" id="people" placeholder="Number of People" />
+      <button onclick="calculateSplit()">Calculate</button>
+    </div>
+    <div id="result" class="result">Each person pays: ₹0.00</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
